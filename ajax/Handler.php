@@ -138,7 +138,6 @@ ini_set('date.timezone','Asia/Shanghai');
     $roadline = $_GET['roadline'];
     $method   = $_GET['Method'];
 
-logResult($ip,$roadline,$method);
 
     if ($roadline == '1250') $roadline = '1250%u8DEF%uFF0871%u8DEF%u652F%u7EBF1%uFF09';
     if ($roadline == '1251') $roadline = '1251%u8DEF%uFF0871%u8DEF%u652F%u7EBF2%uFF09';
